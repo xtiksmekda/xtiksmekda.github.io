@@ -1,0 +1,8 @@
+bady {
+  margin-top: 0%;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  min-height: 100vh;
+}

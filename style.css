@@ -1,0 +1,39 @@
+body {
+  background-image: url('gambar/gambar2.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  color: black;
+}
+
+.navbar {
+  position: fixed;
+  top: 20px;
+  right: 50px;
+  left: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: rgba(225, 225, 225, 0.2);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(225, 225, 225, 0.25);
+  border-top: 1px solid rgba(225, 225, 225, 0.5);
+  border-left: 1px solid rgba(225, 225, 225, 0.5);
+}
+
+.jumbotron {
+  padding-top: 13rem;
+}
+
+section {
+  padding-top: 7rem;
+}
+
+.footer {
+}
