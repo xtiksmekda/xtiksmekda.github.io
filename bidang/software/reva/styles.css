@@ -1,0 +1,46 @@
+body {
+    background-image: url("images/abstrak.jpg");
+    background-position: center center;
+    }
+    img {
+    border-radius: 50%;
+    }
+    .profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: auto;
+    max-width: 100px;
+    }
+    .profile-name {
+    text-align: center;
+    padding: 30px;
+    }
+    .links {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid rgb(240, 219, 201);
+    border-width: 2px;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    }
+    a {
+    text-decoration: none;
+    color: rgb(0, 7, 9);
+    transition: color 1s;
+    }
+    .bottom-text {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    }
+    a:hover {
+    color: #000;
+    background: rgb(239, 148, 214);
+    }

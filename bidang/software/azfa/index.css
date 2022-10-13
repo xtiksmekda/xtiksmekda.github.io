@@ -1,0 +1,112 @@
+body, html {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: gray;
+    color: #fff;
+}
+
+body {
+   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+   background-size: 400% 400%;
+   animation: gradient 15s ease infinite;
+   height: 100vh;
+}
+
+img {
+    transition: transform .5s;
+}
+  
+img:hover {
+    transform: scale(1.2);
+}
+
+@keyframes gradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+main {
+    position: relative;
+    opacity: 0;
+    filter: blur(10px);
+    transition: opacity 2s ease-in-out, filter 2s ease-in-out;
+}
+
+header {
+    padding-top: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header > img {
+    width: 6em;
+    height: 6em;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    box-shadow: rgb(28, 32, 93 / 24%) 0px 2px 8px 0px;
+}
+
+
+header > h1 {
+    display: inline-block;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 1em;
+    background-color: #000a;
+    color: #fff;
+    padding: 0.3em 0.6em;
+    border: 1px solid #fffa;
+    backdrop-filter: blur(10px) saturate(160%) contrast (180%);
+    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast (180%);
+}
+
+footer > p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: white;
+}
+
+ul {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0 auto;
+    padding: 2em;
+    max-width: 480px;
+    
+}
+
+ul > li {
+    background-color: #fffa;
+    backdrop-filter: blur(10px) saturate(160%) contrast (180%);
+    -webkit-backdrop-filter: blur(10px) saturate(160%) contrast (180%);
+    border-radius: 10em;
+    padding: 1em;
+    margin: 0.7em;
+    box-shadow: rgb(28, 32, 93 / 24%) 0px 2px 8px 0px;
+}
+
+ul > li > a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+@media  screen and (max-width: 500px)
+{
+    
+}
